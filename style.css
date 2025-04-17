@@ -1,0 +1,233 @@
+.main {
+    background-image: url("background.jpg");
+    height: 700px;
+    width:100vw;
+    background-size: max(100vw, 1000px);
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+.box {
+    height: 700px;
+    width: 100%;
+    position: absolute;
+    top:0px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+   
+}
+
+.navi {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:80vw;
+
+    margin:auto;
+    text-align: center;
+    /* margin: 10px 50px; */
+
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 10;
+    /* filter: brightness(0) saturate(100%) invert(17%) sepia(83%) saturate(5293%) hue-rotate(358deg) brightness(95%) contrast(110%);
+    background:none; */
+    /* background: rgba(0, 0, 0, 0.7); Add background to navbar for visibility */
+}
+
+.main .navi img {
+    width: 150px;
+    filter: brightness(0) saturate(100%) invert(17%) sepia(83%) saturate(5293%) hue-rotate(358deg) brightness(95%) contrast(110%);
+    background: none; 
+    z-index: 10;
+}
+
+
+
+.first {
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-weight: bolder;
+    z-index: 10;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    background: none; /* Remove unwanted background effects */
+    text-align: center;
+    padding: 0px20px;
+    gap:15px;
+    margin:auto;
+
+}
+.main .btn{
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+.btn-fir{
+    background-color: red;
+    color: white;
+}
+.btn-sec{
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+
+.first >:first-child{
+    font-size: 56px;
+    font-weight: 900;
+    text-align: center;
+}
+.first >:nth-child(2){
+    font-size: 56px;
+    font-weight: 900;
+    text-align: center;
+  
+}
+
+.first > :nth-child(3){
+    font-size: 25px;
+    font-weight: 400;
+    margin:5px;
+    text-align: center;
+}
+.first > :nth-child(4){
+    font-size: 25px;
+    font-weight: 400;
+    margin-top:25px;
+    text-align: center;
+}
+body{
+    background-color: black;
+}
+.he{
+    width:60vw;
+    margin:auto;
+    color:white;
+    text-align: center;
+}
+.sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    margin:auto ;
+    color: white;
+    
+}
+.tvimage{
+    position: relative;
+}
+.tvimage img{
+width:555px;
+background-color:none;
+position: relative;
+z-index: 10;
+}
+body{
+    background-color: black;
+}
+.tvimage video{
+    position: absolute;
+
+    top: 51px;
+    right: 0px;
+
+    }
+
+    .sec > div :nth-child(1){
+        font-size: 48px;
+        font-weight: bolder;
+    }
+    .sec > div :nth-child(2){
+        font-size: 24px;
+    }
+
+    .faqs{
+        background-color: black;
+        color:white;
+
+    }
+    .faqs h2{
+        text-align: center;
+        padding: 30px;
+        font-size: 40px;
+        font-weight: bolder;
+    }
+    .faqbox{
+        background-color: grey;
+        max-width: 60vw;
+        font-size: 20px;
+        font-weight: 600;
+        margin:10px auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        cursor: pointer;
+        color:white;
+        font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    }
+   .faqbox:hover{
+    background-color: #272727;
+    transition: all 1s ease-out;;
+   }
+   .faqbox svg{
+    color:white;
+   }
+   footer{
+    color:#ffffffb3;
+    max-width: 60vw;
+    margin:auto;
+   }
+   .footer{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-bottom: 40px;
+    gap:40px;
+   }
+   footer .items{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+   }
+   .question{
+    padding: 30px 0px;
+    font-size: 18px;
+   }
+   .items a{
+    text-decoration: none;
+    color:#ffffffb3
+    ;
+    font-size: 16px;
+   }
+   .sep{
+    background-color:rgb(46, 44, 44);
+    z-index: 10;
+    height:20px;
+    position: relative;
+    margin:20px 0px;
+   }
+
